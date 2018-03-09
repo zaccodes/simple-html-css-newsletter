@@ -1,0 +1,121 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #dcdde1;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/** Navigation */
+nav{
+width: 100%;
+background-color: #44bd32;
+border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+nav ul li{
+  padding: 10px 15px;
+}
+nav ul li a{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/** Logo **/
+header{
+  width: 100%;
+  background-color: #f5f6fa;
+}
+header img{
+  width: 30%;
+}
+
+/** Showcase **/
+.showcase{
+  width: 100%;
+  min-height: 300px;
+  background: url('img/showcase.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid #44bd32;
+  border-bottom: 5px solid #44bd32;
+}
+
+
+/** Content **/
+.content{
+  width: 100%;
+  background-color: #f5f6fa;
+  text-align: center;
+}
+.content h1, .content p{
+  padding: 8px 15px;
+  margin: 0;
+  color: #555;
+}
+.content hr{
+  width: 40%;
+  border: 1px solid #bbb;
+}
+
+/** Specials **/
+.specials{
+  width: 100%;
+}
+.specials ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.specials .heading-primary{
+  color: #555;
+}
+.specials ul li{
+  background-color: #fff;
+  box-shadow: 1px 0px 1px 1px #bbb;
+}
+.specials ul li img{
+}
+.specials ul li h4{
+  margin: 0;
+  padding: 5px;
+}
+.specials ul li a{
+  color: #44bd32;
+}
+footer{
+  width: 100%;
+  background-color: #44bd32;
+  color: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
